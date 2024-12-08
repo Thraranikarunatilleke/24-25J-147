@@ -1,57 +1,66 @@
-# 24-25J-147
-PreIdentify mental issues & learning educational tools enhance academic performance in students
-Group Supervisor-Mrs.Lokesha Weerasighe
-Group Co-supervisor-Ms.Malithi Nawarathne
-Member 1 - (Group Leader) Karunatilleke P.T.(IT21362958)
-Member 2 - Wimalatathna D.M.A.T.(IT21238444)
-Member 3 - Chamodya W.A.H.(IT21355882)
-Member 4 - Lakshan R.K.C.(IT21168536)
+# **Project ID**: 24-25J-147
+# Research Project : **PREIDENTIFY MENTAL ISSUES & LEARNING EDUCATIONAL TOOLS TO ENHANCE ACADEMIC PERFORMANCE IN STUDENTS**
+
+## Project Overview
+Our project aims to develop an advanced tool designed to help students by identifying and addressing potential mental health concerns. It utilizes image processing and emotional recognition technologies to support students in managing stress, improving emotional resilience, and boosting academic performance.
+
+---
+
+## Key Features
+
+### 1. **Identifying Children Suffering from Mental Stress and Providing a Solution to Reduce the Situation**
+- Detects and classifies stress states 
+- Identifies physical actions related to productivity and safety.
+- Provides real-time feedback to users based on their emotional state.
+
+### 2. **Improving Academic Performance for Stressed Students**
+- Provides personalized study planning guidelines.
+- Academic performance levels.
+- Monitors progress and adjusts learning techniques based on emotional and academic data.
+
+### 3. **Tasks for Workplace Emotion and Action Recognition**
+- detect real-time emotional states.
 
 
-Final Year Research Project
-Project Name - PreIdentify Mental Issues & Learning Educational Tools to Enhance Academic Performance in Students
-Project Description
-This repository contains the development of a mobile application designed to preemptively identify mental health challenges and provide educational tools aimed at improving academic performance in students. By integrating machine learning, real-time emotion detection, and personalized intervention systems, the app seeks to address stress, anxiety, and motivational issues, while offering tailored educational support to help students excel academically and maintain mental well-being.
+### 4. **Solutions for enhancing mental health and real time work place emotions**
+- recommendation system that provides personalized music.
+- based on detected real-time workplace emotions.
+  
+---
 
-Key Features
-Preemptive Mental Health Identification
+## Project Impact
 
-Detects early signs of stress, anxiety, and other mental health concerns to ensure timely interventions.
-Real-Time Emotion Analysis
+- **Mental Health**: Improve students' emotional resilience, reduce stress, and provide proactive mental health support.
+- **Academic Performance**: Help students improve their academic productivity by providing personalized feedback and fostering positive behavioral changes.
+- **Technological Advancement**: Leverage AI and machine learning to provide real-time emotional analysis and adaptive support.
 
-Monitors emotional states such as motivation and focus through advanced machine learning techniques.
-Tailored Learning Tools
+---
 
-Provides customized study aids and resources to enhance understanding and retention based on each student’s specific needs.
-Personalized Interventions
+## Technologies Used
 
-Offers activities and techniques to reduce mental health challenges and foster a balanced approach to study and personal life.
-Motivational Support
+| **Technology**       | **Purpose**                                                   |
+|----------------------|---------------------------------------------------------------|
+| **Python**           | Core programming language for ML models.                      |
+| **Machine Learning** | Detect emotional states and mental stress/suggestions/predict                    |
+| **React Native**     | For building cross-platform mobile apps.                      |
+| **Node.js**          | For backend APIs and real-time data processing.               |
 
-Delivers continuous encouragement and strategies to sustain focus and academic confidence.
-Objectives
-Early Detection
+---
 
-Identify mental health challenges and learning gaps before they significantly impact academic performance.
-Customized Support
+## Research Group
 
-Develop tools and resources tailored to individual student profiles, enhancing learning outcomes.
-Promote Well-Being
+| **Role**             | **Name**                          | **Student ID**      |
+|----------------------|-----------------------------------|---------------------|
+| **Group Supervisor**  | Mrs. Lokesha Weerasighe           |                     |
+| **Group Co-supervisor**| Ms. Malithi Nawarathne           |                     |
+| **Member 1 (Leader)** | Karunatilleke P.T.                | IT21362958          |
+| **Member 2**          | Wimalarathna D.M.A.T.             | IT21238444          |
+| **Member 3**          | Chamodya W.A.H.                  | IT21355882          |
+| **Member 4**          | Lakshan R.K.C.                   | IT21168536          |
 
-Foster a healthier and more balanced study environment, empowering students to manage academic pressures effectively.
-Impact
-This app is designed to redefine student mental health support and educational enhancement by leveraging technology to offer proactive, personalized, and holistic assistance. It aims to improve academic outcomes while promoting mental well-being and sustainable study practices.
+---
 
-Technologies Used
-💡 FrontEnd - React Native
-💡 BackEnd - Python
-💡 Machine Learning - TensorFlow, Scikit-learn
-💡 Emotion Detection - OpenCV, NLP Libraries
-💡 IDE - Visual Studio Code
+## Conclusion
+This project aims to provide a comprehensive, tech-driven solution for students' mental health and academic productivity. By leveraging machine learning and real-time feedback, the tool empowers students to manage stress and enhance their learning experience.
 
-
-
-
-
-
-
+---
