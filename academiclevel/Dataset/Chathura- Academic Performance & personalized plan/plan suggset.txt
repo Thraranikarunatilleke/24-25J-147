@@ -1,0 +1,212 @@
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores
+Format - Subject=Score Subject=Score: Chemistry=20 
+
+if select 1 
+
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=40 
+
+if select 2
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=50 
+
+if select 3
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores
+Format - Subject=Score Subject=Score: Chemistry=30 
+
+
+if select 4
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=30 Physics=30 
+
+if select 5
+
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=60 Physics=30 Mathematics=80
+
+
+if select 6
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores
+Format - Subject=Score Subject=Score:Physics=60 
+
+if select 7
+
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores
+Format - Subject=Score Subject=Score: Chemistry=50 
+
+if select 8
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores
+Format - Subject=Score Subject=Score:  Physics=30 
+
+if select 9
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Normal
+Enter average scores 
+Format - Subject=Score Subject=Score: Mathematics=30
+
+if select 10
+
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Mild
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=20 Physics=50 Mathematics=75
+
+
+if select 11
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Moderate
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=30 Physics=30 Mathematics=30
+
+if select 12
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=30 Physics=30 Mathematics=30
+
+if select 13
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Enter average scores
+Format - Subject=Score Subject=Score: Chemistry=30 Physics=50 Mathematics=30
+Enter family support level (None, Minimal, Moderate, Strong): Strong
+
+if select 14
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Moderate
+Enter average scores 
+Format - Subject=Score Subject=Score: Mathematics=40
+Enter extracurricular activity level (None, Low, High): High
+Enter family support level (None, Minimal, Moderate, Strong): Moderate
+
+if select 15
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Mild
+Enter average scores
+Format - Subject=Score Subject=Score: Chemistry=70 
+Enter extracurricular activity level (None, Low, High): High
+Enter family support level (None, Minimal, Moderate, Strong): Strong
+
+if select 16
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Mild
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=50 
+Enter extracurricular activity level (None, Low, High): High
+Enter family support level (None, Minimal, Moderate, Strong): Strong
+
+if select 17
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Moderate
+Enter average scores 
+Format - Subject=Score Subject=Score: Mathematics=25
+
+Enter family support level (None, Minimal, Moderate, Strong): Strong
+
+if select 18
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=35 Physics=45 Mathematics=25
+
+
+if select 19
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=50 Physics=60 Mathematics=90
+Enter extracurricular activity level (None, Low, High): Low
+Enter family support level (None, Minimal, Moderate, Strong): Minimal
+
+if select 20
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Enter average scores 
+Format - Subject=Score Subject=Score: Chemistry=70 Physics=30 Mathematics=90
+
+Enter family support level (None, Minimal, Moderate, Strong): Strong
+
+if select 21
+
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Format - Subject=Score Subject=Score:  Mathematics=75
+
+if select 22
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Severe
+Format - Subject=Score Subject=Score: Chemistry=60 Physics=70 
+
+if select 22
+
+Enter mental health status (Severe, Moderate, Mild, Normal): Mild
+Format - Subject=Score Subject=Score: Chemistry=60 Physics=70 Mathematics=75
+Enter family support level (None, Minimal, Moderate, Strong): Minimal
+
+if select 23
+
+common table 
+
+select 24
+
+=IFS(
+   AND(A10001="Normal", E10001>=20, E10001<=50), 1,
+   AND(A10001="Normal", E10001>=50, E10001<=70), 2,
+   AND(A10001="Normal", E10001>=70), 3,
+   AND(A10001="Normal", F10001>=30, F10001<=50), 4,
+   AND(A10001="Normal", F10001>=50, F10001<=70), 5,
+   AND(A10001="Normal", G10001>=30, G10001<=50), 6,
+   AND(A10001="Normal", G10001>=50, G10001<=70), 7,
+   AND(A10001="Normal", G10001>=70), 8,
+   AND(A10001="Normal", F10001<=30), 9,
+   AND(A10001="Normal", G10001<=30), 10,
+   AND(A10001="Mild", E10001>=20, E10001<50), 11,
+   AND(A10001="Mild", G10001>=70), 12,
+   AND(A10001="Mild", H10001="High", I10001="Strong"), 13,
+
+   AND(A10001="Moderate", E10001<=50), 14,
+   AND(A10001="Moderate", F10001>=50, F10001<70), 15,
+   AND(A10001="Moderate", G10001<=40), 16,
+   AND(A10001="Moderate", I10001="Strong"), 17,
+   AND(A10001="Severe", F10001<=30, G10001<=30), 18,
+   AND(A10001="Severe", E10001<=50, I10001="Strong"), 19,
+   AND(A10001="Severe", G10001<=90, I10001="Minimal"), 20,
+   AND(A10001="Severe", E10001<=70, I10001="Strong"), 21,
+   AND(A10001="Severe", G10001<=75), 22,
+   AND(A10001="Severe", E10001<=60, F10001<=70), 22,
+   AND(A10001="Mild", E10001<=60, F10001<=70, G10001<=75, I10001="Minimal"), 23,
+   TRUE, 24
+)
