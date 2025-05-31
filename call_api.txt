@@ -1,0 +1,5 @@
+curl -X POST -F "audio_file=@test_fear.wav" http://localhost:5000/predict-audio
+
+curl -X POST -F "video_file=@test_fear.mp4" -F "return_video=true" http://localhost:5000/process-video > processed_video.mp4
+
+curl -X POST -F "image_file=@test_fear.jpg" http://localhost:5000/predict-face
