@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { useNavigation } from '@react-navigation/native';
 import { signOut } from 'firebase/auth';
-import { auth } from './firebaseConfig'; // Import Firebase auth
+import { auth } from './firebaseConfig'; // Import Firebase authy
 import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList, DrawerItem } from '@react-navigation/drawer';
 import { Avatar, Text } from 'react-native-paper';
