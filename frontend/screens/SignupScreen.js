@@ -23,7 +23,7 @@ const SignupScreen = ({ navigation }) => {
         phoneNumber,
         age,
         email,
-        backgroundCompleted: false, // Track whether form is completed
+        backgroundCompleted: false, // Track whether form 
       });
 
       alert('User registered successfully!');
