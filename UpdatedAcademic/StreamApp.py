@@ -52,4 +52,4 @@ if st.button('Submit'):
     predicted_class = best_model.predict(sample_input_df)
 
     # Step 8: Output the prediction
-    st.write(f"Predicted Study Plan 📚: {predicted_class[0]}")
+    st.write(f"Predicted Study Plan 📚📚: {predicted_class[0]}")
