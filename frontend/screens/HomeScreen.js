@@ -53,7 +53,7 @@ const HomeScreen = ({ navigation }) => {
       if (!user) return;
 
       try {
-        // 1. Fetch user's basic info
+        // 1. Fetch user's basic infomation
         const userDoc = await getDoc(doc(db, "users", user.uid));
         if (userDoc.exists()) {
           setFullName(userDoc.data().fullName);
