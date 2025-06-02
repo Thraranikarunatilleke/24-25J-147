@@ -36,7 +36,7 @@ const CustomDrawerContent = (props) => {
       await signOut(auth);
       navigation.replace('Auth'); // Redirect to Auth Stack (Login Screen)
     } catch (error) {
-      console.error("Logout Error:", error.message);
+      console.error("Logout Error:", error.message);//fff
     }
   };
 
