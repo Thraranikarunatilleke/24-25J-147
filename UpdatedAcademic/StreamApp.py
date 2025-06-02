@@ -41,7 +41,7 @@ for column in categorical_columns:
 for column in numeric_columns:
     inputs[column] = st.number_input(f"{column}", min_value=0, max_value=100, value=0)
 
-# Step 5: Add a button to submit the input
+# Step 5: Add a button to submit the inputs
 if st.button('Submit'):
     # Step 6: Prepare the sample input as DataFrame
     sample_input = inputs
