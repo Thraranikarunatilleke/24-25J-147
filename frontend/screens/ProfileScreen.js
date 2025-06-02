@@ -3,7 +3,7 @@ import { View, StyleSheet, ActivityIndicator } from 'react-native';
 import { TextInput, Button, Text } from 'react-native-paper';
 import { auth, db } from '../firebaseConfig';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-
+//rtrt
 const ProfileScreen = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
