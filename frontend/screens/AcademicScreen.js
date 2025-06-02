@@ -45,7 +45,7 @@ const PredictionScreen = ({ navigation }) => {
     'walc': 'Walc'
   };
 
-  // New mapping for display labels
+  // New mapping for display labelss
   const labelMapping = {
     'Mental Status': '1. ඔබේ මානසික යහපැවැත්ම',
     'Attendance Rate': '2. පන්ති වලට සහභාගී වීම (%) \n(ඔබ සාමාන්‍යයෙන් පන්තිවලට සහභාගී වන ප්‍රතිශතය ඇතුළත් කරන්න. උදා: 85%)',
