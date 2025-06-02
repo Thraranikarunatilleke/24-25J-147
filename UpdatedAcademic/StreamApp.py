@@ -31,7 +31,7 @@ st.write("Please provide the input details to predict the stress level class.")
 # Initialize input dictionary to store values
 inputs = {}
 
-# Process categorical inputs dynamically
+# Process 
 for column in categorical_columns:
     # For each categorical column, provide the user the encoded options dynamically
     options = categorical_options[column]
