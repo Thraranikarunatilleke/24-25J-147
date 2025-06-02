@@ -13,7 +13,7 @@ const SettingsScreen = () => {
         Settings
       </Text>
 
-      {/* Notification Settings */}
+      {/* Notification Setting */}
       <Card style={styles.card}>
         <Card.Content>
           <Text variant="titleMedium" style={styles.cardTitle}>
