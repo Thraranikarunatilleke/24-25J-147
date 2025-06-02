@@ -33,7 +33,7 @@ def predict():
         # Make prediction using the preloaded model
         predicted_class = best_model.predict(input_df)
         
-        # Convert NumPy int64 to Python int
+        # Convert NumPy int64 to Python ints
         predicted_value = int(predicted_class[0]) if isinstance(predicted_class[0], np.integer) else predicted_class[0]
 
         return jsonify({"Predicted Study Plan": predicted_value})
