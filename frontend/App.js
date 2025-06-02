@@ -169,7 +169,7 @@ export default function App() {
   );
 }
 
-// Styles
+// Styless
 const styles = StyleSheet.create({
   drawerHeader: {
     alignItems: 'center',
